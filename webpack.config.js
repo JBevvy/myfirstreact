@@ -23,14 +23,14 @@ module.exports = {
                 use: [
                     'style-loader',
                     'css-loader',
-                    'sass-loader'
+                    'less-loader'
                 ]
             }
         ]
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: path.resolve('./index.html')
+            template: path.resolve("index.html")
         })
     ]
 };
