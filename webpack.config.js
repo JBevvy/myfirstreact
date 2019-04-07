@@ -19,7 +19,7 @@ module.exports = {
                 use: ['babel-loader', 'eslint-loader']
             },
             {
-                test: /\.scss$/,
+                test: /\.less$/,
                 use: [
                     'style-loader',
                     'css-loader',
